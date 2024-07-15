@@ -1,0 +1,11 @@
+<header class="header">
+    <h1 class="logo">Portafolio</h1>
+    <i class="bx bx-menu" id="menu-icon" (click)="toggleMenu()" [ngClass]="{'bx-x': navActive}"></i>
+    
+    <nav class="navbar" [ngClass]="{'active': navActive}">
+        <a routerLink="#section1" routerLinkActive="active" fragment="section1">Inicio</a>
+        <a routerLink="#section2" routerLinkActive="active" fragment="section2">Experiencia</a>
+        <a routerLink="#section3" routerLinkActive="active" fragment="section3">Educacion</a>
+        <a routerLink="#section4" routerLinkActive="active" fragment="section4">Habilidades</a>
+    </nav>
+</header>

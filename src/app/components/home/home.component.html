@@ -1,79 +1,24 @@
-<div class="title-section">
-    <h1>Me llamo Felipe Ignacio Alarcón Contreras</h1>
-    <h3>Full-Stack Developer</h3>
-</div>
-
-<div>
-    <h4>Acerca de mí</h4>
-    <p>Soy un desarrollador web con mas de 4 años de experienca en el rubro.</p>
-    <p>Cuento con un titulo de Ingeniería en Informática y Analista Programador.</p>
-</div>
-
-<div class="section">
-    <h3>Contactos</h3>
-    <ul class="list">
-        <li><h5>Correo</h5> <h5>felipealarcon44&#64;gmail.com</h5></li>
-        <li><h5>Whatsapp</h5> <h5>+56950655634</h5></li>
-        <li>
-            <h5>Linkedin</h5>
-            <img src="assets/img/LinkedIn_icon.png" alt="Logo" class="logo" (click)="redirectWindow()">
-        </li>
-    </ul>
-</div>
-
-<div class="banner">
-    <h2 class="title-section">Educación</h2>
-    <div class="img-container">
-        <img src="assets/img/santo-tomas.png" alt="santo-tomas" height="80" width="80" class="banner-img" />
+<section class="home" id="section1">
+    <div class="home-content">
+        <h1>Hola, me llamo <br>Felipe Ignacio Alarcón Contreras</h1>
+        <h3 class="text-animation">Soy un <span></span></h3>
+        <br>
+        <p>
+            Soy un desarrollador Full Stack con 5 años de experiencia y actualmente trabajo en NTT DATA, donde he colaborado con clientes de diversos sectores.
+            Tengo experiencia utilizando diversas tecnologías de front-end, back-end, bases de datos, herramientas DevOps y metodologías ágiles como SCRUM.
+        </p>
+        <div class="social-icons">
+            <a href="#" (click)="redirectWindow('linkedin')"><i class='bx bxl-linkedin'></i></a>
+            <a href="#" (click)="redirectWindow('github')"><i class='bx bxl-github'></i></a>
+            <a href="#" (click)="redirectWindow('gmail')"><i class='bx bxl-gmail'></i></a>
+            <a href="#" (click)="redirectWindow('whatsapp')"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+        <!--<button class="btn">Contactar</button>-->
     </div>
-    <div class="banner-content">
-        <h4 class="banner-title">IP Santo Tomas</h4>
-        <h5 class="banner-title">2017 - 2021</h5>
-        <ul >
-            <li><h5 class="banner-description">Analista Programador</h5></li>
-            <li><h5 class="banner-description">Ingeniería en Informática</h5></li>
-        </ul>
-    </div>
-</div>
-<br> 
-<div>
-    <h2 class="title-section">Habilidades Tecnicas</h2>
-    <div class="section-card">
-        <div class="card">
-            <img src="assets/skills/springboot.png" alt="Springboot" height="80" width="80">
-            <p class="card-title">Springboot</p>
-        </div>
-        <div class="card">
-            <img src="assets/skills/angular.png" alt="Angular" height="80" width="80">
-            <p class="card-title">Angular</p>
-        </div>
-        <div class="card">
-            <img src="assets/skills/react.png" alt="React" height="80" width="80">
-            <p class="card-title">React</p>
-        </div>
-        <div class="card">
-            <img src="assets/skills/java.png" alt="Java" height="80" width="80">
-            <p class="card-title">Java</p>
-        </div>
-        <div class="card">
-            <img src="assets/skills/node-js.png" alt="NodeJS" height="80" width="80">
-            <p class="card-title">Node JS</p>
-        </div>
-        <div class="card">
-            <img src="assets/skills/javascript.png" alt="Javascript" height="80" width="80">
-            <p class="card-title">Javascript</p>
-        </div>
-        <div class="card">
-            <img src="assets/skills/typescript.png" alt="Typescript" height="80" width="80">
-            <p class="card-title">Typescript</p>
-        </div>
-        <div class="card">
-            <img src="assets/skills/html.png" alt="HTML" height="80" width="80">
-            <p class="card-title">HTML</p>
-        </div>
-        <div class="card">
-            <img src="assets/skills/css.png" alt="CSS" height="80" width="80">
-            <p class="card-title">CSS</p>
-        </div>
-    </div>
-</div>
+</section>
+
+<app-experience></app-experience>
+
+<app-education></app-education>
+
+<app-skills></app-skills>
