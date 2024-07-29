@@ -1,26 +1,14 @@
-'use client';
 
 import React from "react";
-import Button from "../shared/button";
-
-const downloadFile = async () => {
-  const response = await fetch('/api/download');
-  const blob = await response.blob();
-  const url = window.URL.createObjectURL(blob);
-  const a = document.createElement('a');
-  a.href = url;
-  a.download = 'CV-FelipeAlarconContreras.pdf';
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-};
+import "./module.css";
+import Button from "../components/button";
 
 export default function Home() {
   return (
     <section className="home" id="section1">
       <div className="home-content">
         <h1>
-          Hola, me llamo <br />
+          Me llamo
           Felipe Ignacio Alarcón Contreras
         </h1>
         <h3 className="text-animation">
@@ -47,7 +35,7 @@ export default function Home() {
             <i className="bx bxl-whatsapp"></i>
           </a>
         </div>
-        <button className="btn" onClick={downloadFile}>Descarga mi CV</button>
+        <Button />
       </div>
     </section>
   );

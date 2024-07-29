@@ -1,10 +1,13 @@
-import { Inter } from "next/font/google";
+import { Iceland } from "next/font/google";
 import Navbar from "./navbar/page";
 import 'boxicons/css/boxicons.min.css';
 import "./globals.css";
-import Skills from "./skills/page";
 
-const inter = Inter({ subsets: ["latin"] });
+const font = Iceland({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 export const metadata = {
   title: "Felipe Alarcon Contreras",
@@ -14,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={font.className}>
         <Navbar></Navbar>
         {children}
       </body>
