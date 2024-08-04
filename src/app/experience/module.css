@@ -65,6 +65,7 @@
 }
 
 .timeline-content {
+  background-color: var(--primary-bg-color);
   border: 3px solid var(--secondary-text-color);
   padding: 1.5rem 2rem;
   border-radius: 4rem;
@@ -90,4 +91,18 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 18px;
+}
+
+
+@media (max-width: 599px) {
+  .timeline-items {
+    width: 100%;
+  }
+
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+  }
+  .timeline-item:nth-child(even) {
+    padding-left: 0;
+  }
 }

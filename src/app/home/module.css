@@ -47,80 +47,33 @@
   background-color: var(--secondary-text-color);
 }
 
-.text-animation {
-  margin-bottom: 2rem;
-  font-size: 3rem;
-  font-weight: 600;
-  min-width: 280px;
-  color: var(--secondary-text-color);
+.typing-container {
+  text-align: left;
 }
 
-.text-animation span {
-  position: relative;
-}
-
-.text-animation span::before {
-  content: "Desarrollador Full-Stack";
+.typing-text {
   color: var(--secondary-bg-color);
-  animation: words 20s infinite;
-}
-
-.text-animation span::after {
-  content: "";
-  background-color: var(--primary-bg-color);
-  position: absolute;
-  width: calc(100% + 8px);
-  height: 100%;
-  border-left: 3px solid var(--secondary-bg-color);
-  right: -8px;
-  animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
-}
-
-@keyframes cursor {
-  to {
-    border-left: 2px solid var(--primary-bg-color);
-  }
-}
-
-@keyframes words {
-  0%,
-  100% {
-    content: "Desarrollador Full-Stack";
-  }
+  display: inline-block;
+  border-right: 3px solid var(--secondary-bg-color);
+  font-size: 4rem;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s steps(35), blink-caret 0.3s step-end infinite;
 }
 
 @keyframes typing {
-  10%,
-  15%,
-  30%,
-  35%,
-  50%,
-  55%,
-  70%,
-  75%,
-  90%,
-  95% {
-    width: 0;
-  }
-  5%,
-  20%,
-  25%,
-  40%,
-  45%,
-  60%,
-  65%,
-  80%,
-  85% {
-    width: calc(100% + 8px);
-  }
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: var(--secondary-bg-color); }
 }
 
 @media (max-width: 599px) {
   .home {
     flex-direction: column-reverse;
-  }
-  .text-animation {
-    font-size: 1.6rem;
   }
   .home-content h1 {
     font-size: 3rem;
@@ -128,5 +81,8 @@
   .home-content p {
     max-width: 600px;
     margin: 0 auto;
+  }
+  .typing-text {
+    font-size: 2rem;
   }
 }

@@ -12,7 +12,7 @@ export default function Experience() {
       <div className="timeline-items">
         <div className="timeline-item">
           <div className="timeline-dot"></div>
-          <div className="timeline-date">2020 - 2022</div>
+          <div className="timeline-date">2020 - 2021</div>
           <div className="timeline-content">
             <h3>Desarrollador Full-stack</h3>
             <p>
@@ -24,7 +24,7 @@ export default function Experience() {
         </div>
         <div className="timeline-item">
           <div className="timeline-dot"></div>
-          <div className="timeline-date">2021</div>
+          <div className="timeline-date">2022</div>
           <div className="timeline-content">
             <h3>Desarrollador Mobile</h3>
             <p>
@@ -48,7 +48,7 @@ export default function Experience() {
         </div>
         <div className="timeline-item">
           <div className="timeline-dot"></div>
-          <div className="timeline-date">2023 - Actualmente</div>
+          <div className="timeline-date">2023 - <br/>Actualidad</div>
           <div className="timeline-content">
             <h3>Desarrollador Full-stack</h3>
             <p>
