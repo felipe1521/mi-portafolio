@@ -78,6 +78,7 @@ a {
 @media (max-width: 768px) {
   main {
     width: 100vh;
+    margin: 0 1rem;
   }
   section {
     margin: 0;
