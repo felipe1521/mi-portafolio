@@ -4,20 +4,12 @@ import "./module.css";
 import Button from "../components/button";
 
 export default function Home() {
-  /*
-  <h3 className="text-animation">
-          Soy un <span></span>
-        </h3>
-  */
   return (
     <section className="home" id="section1">
       <div className="home-content">
-        <h1>
-          Me llamo
-          Felipe Ignacio Alarcón Contreras
-        </h1>
+        <h1>Me llamo Felipe Ignacio Alarcón Contreras</h1>
         <div className="typing-container">
-          <h3 className="typing-text">Hello, welcome to the typing animation!</h3>
+          <h3 className="typing-text">Soy un Desarrollador Full Stack</h3>
         </div>
         <p>
           Soy un desarrollador Full Stack con 5 años de experiencia y

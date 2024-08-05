@@ -1,20 +1,20 @@
 .home {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 15rem;
+  min-width: 500px;
 }
 
 .home-content {
   display: flex;
   flex-direction: column;
   align-items: baseline;
-  text-align: left;
   justify-content: center;
   margin-top: 2rem;
 }
 
 .home-content h1 {
+  text-align: left;
   color: var(--primary-text-color);
   font-size: 4rem;
   font-weight: 700;
@@ -47,10 +47,6 @@
   background-color: var(--secondary-text-color);
 }
 
-.typing-container {
-  text-align: left;
-}
-
 .typing-text {
   color: var(--secondary-bg-color);
   display: inline-block;
@@ -72,14 +68,10 @@
 }
 
 @media (max-width: 599px) {
-  .home {
-    flex-direction: column-reverse;
-  }
   .home-content h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   .home-content p {
-    max-width: 600px;
     margin: 0 auto;
   }
   .typing-text {

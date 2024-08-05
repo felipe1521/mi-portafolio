@@ -5,7 +5,7 @@ import "./module.css";
 export default function Skills() {
   return (
     <section id="section4">
-    <h2 className="section-title">Habilidades Tecnicas</h2>
+    <h2 className="heading">Habilidades Tecnicas</h2>
     <div className="section-card">
         <div className="card">
             <Image src="/assets/skills/springboot.png" alt="Springboot" width="80" height="80" />

@@ -1,11 +1,6 @@
 .education {
   color: var(--primary-bg-color);
-}
-
-.education h2 {
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  color: var(--primary-text-color);
+  margin: 3rem 0;
 }
 
 .education-container {
@@ -15,29 +10,20 @@
   gap: 2.5rem;
 }
 
-.education-box {
+.education-info {
   background-color: var(--secondary-text-color);
   border-radius: 2rem;
-  height: 300px;
   border: 5px solid transparent;
   transition: 0.4s ease-in-out;
+  text-align: baseline;
+  padding: 2rem 2rem;
 }
 
-.education-box:hover {
+.education-info:hover {
   background: var(--primary-text-color);
   color: var(--primary-bg-color);
   border: 5px solid var(--secondary-text-color);
   transform: scale(1.03);
-}
-
-.education-info {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  max-height: 250px;
-  justify-content: left;
-  align-items: baseline;
-  padding: 2rem 2rem;
 }
 
 .education-info h4 {
@@ -54,7 +40,7 @@
 .education-info p {
   font-size: 1.4rem;
   font-weight: 600;
-  margin: auto;
+  text-align: justify;
 }
 
 @media (max-width: 599px) {
@@ -64,19 +50,8 @@
   }
   .education-box {
     display: block;
-    min-height: 350px;
   }
-  .education-info h4 {
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-  .education-info h5 {
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 5px;
-  }
-  .education-info p {
-    font-size: 1rem;
-    font-weight: 400;
+  .education-info {
+    padding: 1rem 1rem;
   }
 }

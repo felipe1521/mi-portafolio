@@ -1,18 +1,18 @@
 .timeline-title {
+  max-width: 150px;
   font-size: 1.5rem;
   font-weight: 600;
-  max-width: 150px;
   text-align: center;
   color: var(--primary-text-color);
-  border-radius: 40%;
   background-color: var(--secondary-text-color);
   padding: 10px 15px;
+  border-radius: 40%;
   box-shadow: 0 0 30px var(--secondary-text-color);
 }
 
 .timeline-items {
   max-width: 1200px;
-  margin: auto;
+  margin: 3rem 0;
   display: flex;
   flex-wrap: wrap;
   position: relative;
