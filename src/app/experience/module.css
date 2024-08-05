@@ -94,7 +94,7 @@
 }
 
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .timeline-items {
     width: 100%;
   }

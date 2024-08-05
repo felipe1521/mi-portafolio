@@ -75,7 +75,10 @@ a {
   width: 50px;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
+  main {
+    width: 100vh;
+  }
   section {
     margin: 0;
     padding: 0;

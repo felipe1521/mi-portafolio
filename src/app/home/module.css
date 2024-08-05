@@ -67,7 +67,7 @@
   50% { border-color: var(--secondary-bg-color); }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .home-content h1 {
     font-size: 3.5rem;
   }
