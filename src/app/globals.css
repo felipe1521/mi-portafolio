@@ -9,12 +9,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   outline: none;
-  scroll-behavior: smooth;
 }
 
 html {
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }
 
@@ -60,6 +59,13 @@ a {
   font-size: 2rem;
   margin-bottom: 1.5rem;
   color: var(--primary-text-color);
+}
+
+.active {
+  display: block;
+}
+.inactive {
+  display: none;
 }
 
 ::-webkit-scrollbar {
