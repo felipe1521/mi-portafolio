@@ -15,7 +15,7 @@ const downloadFile = async () => {
 
 function Button() {
   return (
-    <button className="btn" onClick={downloadFile}>Descarga mi CV</button>
+    <button className="btn" onClick={downloadFile}>Revisa mi CV</button>
   )
 }
 

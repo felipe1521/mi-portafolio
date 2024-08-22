@@ -11,7 +11,6 @@
 }
 
 .timeline-items {
-  max-width: 1200px;
   margin: 3rem 0;
   display: flex;
   flex-wrap: wrap;
@@ -58,10 +57,10 @@
 }
 
 .timeline-date {
-  font-size: 20px;
+  font-size: 1.3rem;
   font-weight: 800;
   color: var(--primary-text-color);
-  margin: 6px 0 15px;
+  margin: 1.2rem 0 1.6rem;
 }
 
 .timeline-content {
@@ -80,17 +79,16 @@
 }
 
 .timeline-content h3 {
-  font-size: 20px;
+  font-size: 1.6rem;
   color: var(--primary-text-color);
-  margin: 0 0 10px;
+  margin: 0 0 1.3rem;
   font-weight: 500;
 }
 
 .timeline-content p {
   color: var(--primary-text-color);
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: 300;
-  line-height: 18px;
 }
 
 

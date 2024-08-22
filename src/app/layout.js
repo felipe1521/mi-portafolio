@@ -2,6 +2,7 @@ import { Iceland } from "next/font/google";
 import Navbar from "./navbar/page";
 import 'boxicons/css/boxicons.min.css';
 import "./globals.css";
+import Footer from "./footer/page";
 
 const font = Iceland({
   weight: '400',
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       <body className={font.className}>
         <Navbar></Navbar>
         {children}
+        <Footer></Footer>
       </body>
     </html>
   );

@@ -9,11 +9,11 @@ export default function Home() {
       <div className="home-content">
         <h1>Me llamo Felipe Ignacio Alarcón Contreras</h1>
         <div className="typing-container">
-          <h3 className="typing-text">Soy un Desarrollador Full Stack</h3>
+          <h3 className="typing-text">Soy un Desarrollador Web</h3>
         </div>
         <p>
-          Soy un desarrollador Full Stack con 5 años de experiencia y
-          actualmente trabajo en NTT DATA, donde he colaborado con clientes de
+          Soy un desarrollador Web con 5 años de experiencia en el campo del desarrollo
+          de software, donde he colaborado con clientes de
           diversos sectores. Tengo experiencia utilizando diversas tecnologías
           de front-end, back-end, bases de datos, herramientas DevOps y
           metodologías ágiles como SCRUM.
