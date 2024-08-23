@@ -90,7 +90,4 @@ a {
   section {
     padding: 0;
   }
-  section[id] {
-    scroll-margin-top: 10px;
-  }
 }

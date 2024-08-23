@@ -38,14 +38,16 @@
 }*/
 
 .logo {
-    font-size: 2rem;
+    font-size: 4rem;
     color: rgb(252, 252, 252);
     text-decoration: none;
     font-weight: 700;
+    text-shadow: .4rem .4rem .7rem rgba(252, 252, 252, 0.3),
+                -.4rem -.4rem .7rem rgba(252, 252, 252, 0.3);
 }
 
 .navbar a {
-    font-size: 1.5rem;
+    font-size: 3rem;
     color: rgb(252, 252, 252);
     text-decoration: none;
     font-weight: 500;
@@ -100,6 +102,8 @@
     #check:checked~.icons #close-icon {
         display: block;
     }
+
+    .logo { font-size: 2rem; }
 
     .navbar {
         position: absolute;

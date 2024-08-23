@@ -4,7 +4,7 @@ import './module.css';
 export default function Navbar() {
   return (
     <header className="header">
-        <a href="#" className="logo">Portafolio</a>
+        <a href="#" className="logo">Mi Portafolio</a>
         <input type="checkbox" id="check" />
         <label htmlFor="check" className="icons">
           <i className="bx bx-menu" id="menu-icon"></i>

@@ -16,7 +16,7 @@
   border: 5px solid transparent;
   transition: 0.4s ease-in-out;
   text-align: baseline;
-  padding: 2rem 2rem;
+  padding: 2rem;
 }
 
 .education-info:hover {
@@ -27,18 +27,18 @@
 }
 
 .education-info h4 {
-  font-size: 1.8rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 
 .education-info h5 {
-  font-size: 1.6rem;
+  font-size: 3rem;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
 .education-info p {
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 600;
   text-align: justify;
 }
@@ -53,5 +53,14 @@
   }
   .education-info {
     padding: 1rem 1rem;
+  }
+  .education-info h4 {
+    font-size: 1.8rem;
+  }
+  .education-info h5 {
+    font-size: 1.6rem;
+  }
+  .education-info p {
+    font-size: 1.4rem;
   }
 }
