@@ -1,0 +1,45 @@
+
+.home-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-icons {
+    margin: 1.5rem 0;  
+}
+  
+.social-icons a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4rem;
+  color: var(--primary-text-color);
+  width: 100%;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  margin: 1rem 0;
+  gap: 1.5rem;
+  transition: 0.3s ease-in-out;
+}
+
+.social-icons a p {
+  font-size: 2.5rem;
+  margin: 0 auto;
+}
+
+.social-icons a:hover {
+  transform: scale(1) translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .home-link {
+    margin-bottom: 6rem;
+  }
+  .social-icons a {
+    padding: 1rem .8rem;
+  }
+  .social-icons a p {
+    font-size: 1.5rem;
+  }
+}

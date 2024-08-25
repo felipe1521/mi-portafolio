@@ -66,6 +66,9 @@
 .navbar .a3 {
     --i: 3;
 }
+.navbar .a4 {
+    --i: 4;
+}
 
 #check {
     display: none;

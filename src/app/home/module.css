@@ -1,18 +1,12 @@
 .home {
   display: flex;
   justify-content: space-between;
-  margin-top: 6rem;
 }
 
 .home-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
-}
-
-.home-link {
-  width: 40%;
 }
 
 .home-content h1 {
@@ -34,38 +28,11 @@
   max-width: 90%;
 }
 
-.social-icons {
-  margin: 1.5rem 0;
-}
-
-.social-icons a {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 4rem;
-  color: var(--primary-text-color);
-  width: 100%;
-  font-size: 2rem;
-  padding: 1rem 3rem;
-  margin: 1rem 0;
-  transition: 0.3s ease-in-out;
-}
-
-.social-icons a p {
-  font-size: 2.5rem;
-  margin: 0 auto;
-}
-
-.social-icons a:hover {
-  transform: scale(1) translateY(-5px);
-}
-
 .typing-text {
   color: var(--secondary-bg-color);
   display: inline-block;
   border-right: 3px solid var(--secondary-bg-color);
   font-size: 5rem;
-  margin-bottom: 1rem;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 3s steps(35), blink-caret 0.3s step-end infinite;
@@ -81,18 +48,19 @@
   50% { border-color: var(--secondary-bg-color); }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1440px) {
   .home {
     flex-direction: column;
   }
-  .home-content, .home-link {
+  .home-content {
     width: 100%;
   }
 }
 
 @media (max-width: 768px) {
   .home-content {
-    margin-top: 6rem;
+    height: 100vh;
+    justify-content: space-around;
   }
   .home-content h1 {
     font-size: 3rem;
@@ -103,14 +71,9 @@
   .home-content p {
     font-size: 2rem;
     max-width: 100%;
+    margin-bottom: 3rem;
   }
   .typing-text {
     font-size: 2rem;
-  }
-  .social-icons a {
-    padding: 1rem .8rem;
-  }
-  .social-icons a p {
-    font-size: 1.5rem;
   }
 }

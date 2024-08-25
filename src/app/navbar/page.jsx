@@ -12,9 +12,10 @@ export default function Navbar() {
         </label>
         <nav className="navbar">
             <a href="#section1" className="a0">Inicio</a>
-            <a href="#section2" className="a1">Experiencia</a>
-            <a href="#section3" className="a2">Educación</a>
-            <a href="#section4" className="a3">Habilidades</a>
+            <a href="#section5" className="a1">Contactos</a>
+            <a href="#section2" className="a2">Experiencia</a>
+            <a href="#section3" className="a3">Educación</a>
+            <a href="#section4" className="a4">Habilidades</a>
         </nav>
     </header>
   );
