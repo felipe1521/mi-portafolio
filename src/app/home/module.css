@@ -39,7 +39,9 @@
 }
 
 .social-icons a {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 4rem;
   color: var(--primary-text-color);
   width: 100%;
@@ -106,7 +108,7 @@
     font-size: 2rem;
   }
   .social-icons a {
-    padding: 1rem 1rem;
+    padding: 1rem .8rem;
   }
   .social-icons a p {
     font-size: 1.5rem;
