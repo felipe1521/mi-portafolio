@@ -38,7 +38,7 @@
 }*/
 
 .logo {
-    font-size: 4rem;
+    font-size: 3rem;
     color: rgb(252, 252, 252);
     text-decoration: none;
     font-weight: 700;
@@ -47,11 +47,11 @@
 }
 
 .navbar a {
-    font-size: 3rem;
+    font-size: 2rem;
     color: rgb(252, 252, 252);
     text-decoration: none;
     font-weight: 500;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
 }
 
 .navbar .a0 {
@@ -78,12 +78,6 @@
     color: rgb(252, 252, 252);
     cursor: pointer;
     display: none;
-}
-
-@media (max-width: 992px) {
-    .header {
-        padding: 1.3rem 5%;
-    }
 }
 
 @media (max-width: 768px) {

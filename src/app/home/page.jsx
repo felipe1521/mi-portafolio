@@ -1,7 +1,6 @@
 
 import React from "react";
 import "./module.css";
-import Button from "../components/button";
 
 export default function Home() {
   return (
@@ -17,22 +16,30 @@ export default function Home() {
           diversos sectores. Tengo experiencia utilizando diversas tecnologías
           de front-end, back-end, bases de datos, herramientas DevOps y
           metodologías ágiles como SCRUM.
-        </p>
+        </p>   
+      </div>
+      <div className="home-content home-link">
         <div className="social-icons">
-          <a href="#">
+          <a href="https://linkedin.com/in/felipe-ignacio-alarcon-contreras-670a25286/" target="_blank"
+          style={{ backgroundColor: "#0A66C2", boxShadow: "0 0 1rem #0A66C2"}}>
             <i className="bx bxl-linkedin"></i>
+            <b>Linkedin</b>
           </a>
-          <a href="#">
+          <a href="https://github.com/felipe1521" target="_blank"
+          style={{ backgroundColor: "#0D1117", boxShadow: "0 0 1rem #0D1117"}}>
             <i className="bx bxl-github"></i>
+            <b>Github</b>
           </a>
-          <a href="#">
+          <a style={{ backgroundColor: "#C82401", boxShadow: "0 0 1rem #C82401"}}>
             <i className="bx bxl-gmail"></i>
+            <b>felipealarcon44@gmail.com</b>
           </a>
-          <a href="#">
+          <a style={{ backgroundColor: "#25D366", boxShadow: "0 0 1rem #25D366"}}>
             <i className="bx bxl-whatsapp"></i>
+            <b>+56950655634</b>
           </a>
         </div>
-        <Button />
+        <a href="/CV-FelipeAlarconContreras.pdf" target="_blank" className="btn">Revisa mi CV</a>
       </div>
     </section>
   );
