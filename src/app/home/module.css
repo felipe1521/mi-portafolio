@@ -43,13 +43,14 @@
   border-radius: 4rem;
   color: var(--primary-text-color);
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 1rem 3rem;
-  margin: 0.8rem 0;
+  margin: 1rem 0;
   transition: 0.3s ease-in-out;
 }
 
-.social-icons a b {
+.social-icons a p {
+  font-size: 2.5rem;
   margin: 0 auto;
 }
 
@@ -105,6 +106,9 @@
     font-size: 2rem;
   }
   .social-icons a {
-    font-size: 2rem;
+    padding: 1rem 1rem;
+  }
+  .social-icons a p {
+    font-size: 1.5rem;
   }
 }
