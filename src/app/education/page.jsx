@@ -7,23 +7,12 @@ export default function Education() {
       <h2 className="heading">Educación</h2>
       <div className="education-container">
           <div className="education-info">
-            <h4>IP Santo Tomás</h4>
-            <h5>Analista Programador (2017 - 2018)</h5>
-            <p>
-              Un analista programador es un profesional encargado de analizar,
-              desarrollar y mantener sistemas de software, para lo que necesita
-              contar con determinadas habilidades, entre las que se incluyen la
-              programación y el desarrollo.
-            </p>
+            <h5>IP Santo Tomás</h5>
+            <h4>Analista Programador (2017 - 2018)</h4>
           </div>
           <div className="education-info">
-            <h4>IP Santo Tomás</h4>
-            <h5>Ingeniero Informático (2017 - 2021)</h5>
-            <p>
-              Un ingeniero en informática se encarga de diseñar y analizar los
-              procesos y estructuras de software y hardware, que hacen posible
-              el tratamiento y explotación de datos digitales.
-            </p>
+            <h5>IP Santo Tomás</h5>
+            <h4>Ingeniero Informático (2017 - 2021)</h4>
           </div>
       </div>
     </section>

@@ -27,20 +27,13 @@
 }
 
 .education-info h4 {
-  font-size: 3rem;
-  font-weight: 800;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 .education-info h5 {
   font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.education-info p {
-  font-size: 2rem;
   font-weight: 600;
-  text-align: justify;
 }
 
 @media (max-width: 768px) {
@@ -55,12 +48,9 @@
     padding: 1rem 1rem;
   }
   .education-info h4 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .education-info h5 {
     font-size: 1.6rem;
-  }
-  .education-info p {
-    font-size: 1.4rem;
   }
 }
