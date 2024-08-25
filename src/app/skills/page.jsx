@@ -8,16 +8,20 @@ export default function Skills() {
     <h2 className="heading">Habilidades Técnicas</h2>
     <div className="section-card">
         <div className="card">
-            <Image src="/assets/skills/springboot.png" alt="Springboot" width="80" height="80" />
-            <p className="card-title">Springboot</p>
-        </div>
-        <div className="card">
             <Image src="/assets/skills/angular.png" alt="Angular" width="80" height="80" />
             <p className="card-title">Angular</p>
         </div>
         <div className="card">
             <Image src="/assets/skills/react.png" alt="React" width="80" height="80" />
             <p className="card-title">React</p>
+        </div>
+        <div className="card">
+            <Image src="/assets/skills/nextjs.png" alt="Next.JS" width="80" height="80" />
+            <p className="card-title">Next.JS</p>
+        </div>
+        <div className="card">
+            <Image src="/assets/skills/springboot.png" alt="Springboot" width="80" height="80" />
+            <p className="card-title">Springboot</p>
         </div>
         <div className="card">
             <Image src="/assets/skills/java.png" alt="Java" width="80" height="80" />

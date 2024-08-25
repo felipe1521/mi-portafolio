@@ -7,7 +7,7 @@ export default function Education() {
       <h2 className="heading">Educación</h2>
       <div className="education-container">
           <div className="education-info">
-            <h4>IP Santo Tomas</h4>
+            <h4>IP Santo Tomás</h4>
             <h5>Analista Programador (2017 - 2018)</h5>
             <p>
               Un analista programador es un profesional encargado de analizar,
@@ -17,7 +17,7 @@ export default function Education() {
             </p>
           </div>
           <div className="education-info">
-            <h4>IP Santo Tomas</h4>
+            <h4>IP Santo Tomás</h4>
             <h5>Ingeniero Informático (2017 - 2021)</h5>
             <p>
               Un ingeniero en informática se encarga de diseñar y analizar los

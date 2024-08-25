@@ -13,7 +13,7 @@ export default function Navbar() {
         <nav className="navbar">
             <a href="#section1" className="a0">Inicio</a>
             <a href="#section2" className="a1">Experiencia</a>
-            <a href="#section3" className="a2">Educacion</a>
+            <a href="#section3" className="a2">Educación</a>
             <a href="#section4" className="a3">Habilidades</a>
         </nav>
     </header>

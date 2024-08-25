@@ -11,7 +11,7 @@ export default function Home() {
           <h3 className="typing-text">Soy un Desarrollador Web</h3>
         </div>
         <p>
-          Soy un desarrollador Web con 5 años de experiencia en el campo del desarrollo
+          Tengo 5 años de experiencia en el campo del desarrollo
           de software, donde he colaborado con clientes de
           diversos sectores. Tengo experiencia utilizando diversas tecnologías
           de front-end, back-end, bases de datos, herramientas DevOps y

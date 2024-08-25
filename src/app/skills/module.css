@@ -1,7 +1,7 @@
 .section-card {
   display: grid;
-  gap: .8rem;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .card {
@@ -12,22 +12,19 @@
   align-items: center;
   border-radius: 5px;
   transition: 0.4s ease-in-out;
-}
-
-.card:hover {
   transform: scale(1.04);
-  box-shadow: 0 0 25px var(--secondary-bg-color);
+  box-shadow: 0 0 1.5rem var(--secondary-bg-color);
 }
 
 .card-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 800;
   margin-top: 1rem;
-  color: var(--secondary-bg-color);
+  color: var(--primary-text-color);
 }
 
 @media (max-width: 768px) {
-  .card-title { 
-    font-size: 1.5rem; 
+  .section-card {
+    gap: 1rem;
   }
 }
