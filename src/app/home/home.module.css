@@ -1,6 +1,4 @@
 .home {
-  top: var(--height-navbar);
-  height: 100vh;
   display: grid;
   grid-template-columns: 60% 1fr;
   grid-template-areas: 
@@ -14,11 +12,11 @@
   flex-direction: column;
   justify-content: center;
   font-size: 3rem;
+  color: var(--primary-text-color);
 }
 
 .description_content {
   grid-area: description;
-  
   display: flex;
   align-items: center;
   font-size: 2.5rem;
@@ -27,16 +25,17 @@
 }
 
 .links_content {
+  position: relative;
   grid-area: link;
 }
 
 .typing_content {
+  position: relative;
   width: fit-content;
 }
 
 .typing_text {
   color: var(--secondary-bg-color);
-  display: inline-block;
   border-right: 3px solid var(--secondary-bg-color);
   white-space: nowrap;
   overflow: hidden;
@@ -60,14 +59,19 @@
       'title'
       'description'
       'link';
+    gap: 1.5rem;
   }
 
   .title_content {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
+  }
+
+  .typing_content {
+    font-size: 1.5rem;
   }
 
   .description_content {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     align-items: center;
   }
 }

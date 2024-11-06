@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <section className={styles.home} id="section1">
       <div className={styles.title_content}>
-        <h2>Me llamo</h2><h1>Felipe Ignacio Alarcón Contreras</h1>
+        <h3>Me llamo</h3><h1>Felipe Ignacio Alarcón Contreras</h1>
         <div className={styles.typing_content}>
-          <h3 className={styles.typing_text}>Soy un Desarrollador Web</h3>
+          <h3 className={styles.typing_text}>Soy Desarrollador Web</h3>
         </div>
       </div>
       <div className={styles.description_content}>
