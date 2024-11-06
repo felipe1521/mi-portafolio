@@ -1,19 +1,18 @@
 import React from "react";
-import "./module.css";
+import styles from './experience.module.css';
 
 export default function Experience() {
   return (
-    <section className="timeline" id="section2">
+    <section className={styles.timeline} id="section2">
       <h3 className="heading">Experiencia</h3>
-
-      <div className="timeline-title">
+      <div className={styles.timeline_title}>
         <h4>NTT DATA</h4>
       </div>
-      <div className="timeline-items">
-        <div className="timeline-item">
-          <div className="timeline-dot"></div>
-          <div className="timeline-date">2020 - <br/>2021</div>
-          <div className="timeline-content">
+      <div className={styles.timeline_items}>
+        <div className={styles.timeline_item}>
+          <div className={styles.timeline_dot}></div>
+          <div className={styles.timeline_date}>2020 - <br/>2021</div>
+          <div className={styles.timeline_content}>
             <h3>Desarrollador Full-stack</h3>
             <p>
               He trabajado en la creación de un aplicativo web llamado New LDI, 
@@ -21,10 +20,10 @@ export default function Experience() {
             </p>
           </div>
         </div>
-        <div className="timeline-item">
-          <div className="timeline-dot"></div>
-          <div className="timeline-date">2022</div>
-          <div className="timeline-content">
+        <div className={styles.timeline_item}>
+          <div className={styles.timeline_dot}></div>
+          <div className={styles.timeline_date}>2022</div>
+          <div className={styles.timeline_content}>
             <h3>Desarrollador Mobile</h3>
             <p>
               He trabajado en el mantenimiento de una aplicación móvil llamada App Delivery, 
@@ -32,10 +31,10 @@ export default function Experience() {
             </p>
           </div>
         </div>
-        <div className="timeline-item">
-          <div className="timeline-dot"></div>
-          <div className="timeline-date">2023</div>
-          <div className="timeline-content">
+        <div className={styles.timeline_item}>
+          <div className={styles.timeline_dot}></div>
+          <div className={styles.timeline_date}>2023</div>
+          <div className={styles.timeline_content}>
             <h3>Desarrollador Full-stack</h3>
             <p>
               He trabajado en el desarrollo un aplicativo web llamado Resolutor Web, 
@@ -43,10 +42,10 @@ export default function Experience() {
             </p>
           </div>
         </div>
-        <div className="timeline-item">
-          <div className="timeline-dot"></div>
-          <div className="timeline-date">2023 - <br/>Actualidad</div>
-          <div className="timeline-content">
+        <div className={styles.timeline_item}>
+          <div className={styles.timeline_dot}></div>
+          <div className={styles.timeline_date}>2023 - <br/>Actualidad</div>
+          <div className={styles.timeline_content}>
             <h3>Desarrollador Full-stack</h3>
             <p>
             Estoy trabajando en el mantenimiento de un aplicativo llamado Registro MTV, 

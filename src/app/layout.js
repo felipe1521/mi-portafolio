@@ -1,9 +1,7 @@
 import { Iceland } from "next/font/google";
-import Navbar from "./navbar/page";
+import Navbar from "./components/navbar/navbar";
 import 'boxicons/css/boxicons.min.css';
 import "./globals.css";
-import Footer from "./footer/page";
-import Banner from "./components/Banner";
 
 const font = Iceland({
   weight: '400',

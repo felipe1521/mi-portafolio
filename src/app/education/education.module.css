@@ -1,16 +1,17 @@
 .education {
+  position: relative;
+  margin-bottom: 4rem;
   color: var(--primary-bg-color);
-  margin-bottom: 6rem;
 }
 
-.education-container {
+.education_container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 2.5rem;
 }
 
-.education-info {
+.education_info {
   background-color: var(--secondary-text-color);
   border-radius: 2rem;
   border: 5px solid transparent;
@@ -19,38 +20,38 @@
   padding: 2rem;
 }
 
-.education-info:hover {
+.education_info:hover {
   background: var(--primary-text-color);
   color: var(--primary-bg-color);
   border: 5px solid var(--secondary-text-color);
   transform: scale(1.03);
 }
 
-.education-info h4 {
+.education_info h4 {
   font-size: 4rem;
   font-weight: 700;
 }
 
-.education-info h5 {
+.education_info h5 {
   font-size: 3rem;
   font-weight: 600;
 }
 
 @media (max-width: 768px) {
-  .education-container {
+  .education_container {
     display: flex;
     flex-direction: column;
   }
-  .education-box {
+  .education_box {
     display: block;
   }
-  .education-info {
-    padding: 1rem 1rem;
+  .education_info {
+    padding: 1rem;
   }
-  .education-info h4 {
+  .education_info h4 {
     font-size: 2rem;
   }
-  .education-info h5 {
+  .education_info h5 {
     font-size: 1.6rem;
   }
 }

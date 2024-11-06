@@ -1,7 +1,7 @@
 .timeline {
   margin-bottom: 6rem;
 }
-.timeline-title {
+.timeline_title {
   width: 15%;
   font-size: 2rem;
   font-weight: 600;
@@ -13,14 +13,14 @@
   box-shadow: 0 0 30px var(--secondary-text-color);
 }
 
-.timeline-items {
+.timeline_items {
   margin: 3rem 0;
   display: flex;
   flex-wrap: wrap;
   position: relative;
 }
 
-.timeline-items::before {
+.timeline_items::before {
   content: "";
   position: absolute;
   width: 5px;
@@ -29,17 +29,17 @@
   left: calc(50% - 1px);
 }
 
-.timeline-item {
+.timeline_item {
   margin-bottom: 2.5rem;
   width: 100%;
   position: relative;
 }
 
-.timeline-item:last-child {
+.timeline_item:last-child {
   margin-bottom: 0;
 }
 
-.timeline-dot {
+.timeline_dot {
   height: 21px;
   width: 21px;
   background-color: var(--secondary-text-color);
@@ -50,23 +50,23 @@
   top: 0px;
 }
 
-.timeline-item:nth-child(odd) {
+.timeline_item:nth-child(odd) {
   padding-right: calc(50% + 30px);
   text-align: right;
 }
 
-.timeline-item:nth-child(even) {
+.timeline_item:nth-child(even) {
   padding-left: calc(50% + 30px);
 }
 
-.timeline-date {
+.timeline_date {
   font-size: 3rem;
   font-weight: 800;
   color: var(--primary-text-color);
   margin: 1.2rem 0 1.6rem;
 }
 
-.timeline-content {
+.timeline_content {
   background-color: var(--primary-bg-color);
   border: 3px solid var(--secondary-text-color);
   padding: 1.5rem 2rem;
@@ -76,19 +76,19 @@
   transition: 0.3s ease-in-out;
 }
 
-.timeline-content:hover {
+.timeline_content:hover {
   transform: scale(1.05);
   box-shadow: 0 0 25px var(--secondary-text-color);
 }
 
-.timeline-content h3 {
+.timeline_content h3 {
   font-size: 3rem;
   color: var(--primary-text-color);
   margin: 0 0 1.3rem;
   font-weight: 600;
 }
 
-.timeline-content p {
+.timeline_content p {
   color: var(--primary-text-color);
   font-size: 2rem;
   font-weight: 300;
@@ -96,27 +96,27 @@
 
 
 @media (max-width: 768px) {
-  .timeline-items {
+  .timeline_items {
     width: 100%;
   }
-  .timeline-title {
+  .timeline_title {
     width: 50%;
     font-size: 1.5rem;
   }
-  .timeline-date {
+  .timeline_date {
     font-size: 1.5rem;
   }
-  .timeline-content h3 {
+  .timeline_content h3 {
     font-size: 1.8rem;
   }
-  .timeline-content p {
+  .timeline_content p {
     font-size: 1.5rem;
   }
 
-  .timeline-item:nth-child(odd) {
+  .timeline_item:nth-child(odd) {
     padding-right: 0;
   }
-  .timeline-item:nth-child(even) {
+  .timeline_item:nth-child(even) {
     padding-left: 0;
   }
 }
