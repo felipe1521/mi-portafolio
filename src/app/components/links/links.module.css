@@ -1,25 +1,24 @@
 .home_link {
   position: relative;
   font-size: 1.5rem;
-  padding-bottom: 2rem;
+  padding: 0.5rem;
 }
   
-.link {
+.link, .data_content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 4rem;
   color: var(--primary-text-color);
   width: 100%;
-  font-size: 1rem;
-  padding: 1rem;
+  padding: 0.8rem;
   margin: 1rem 0;
   gap: 1.5rem;
   transition: 0.3s ease-in-out;
 }
 
-.link p {
-  font-size: 1.6em;
+.link p, .data_content p {
+  font-size: 2vw;
   margin: 0 auto;
 }
 
@@ -48,23 +47,25 @@
 }
 
 @media (max-width: 991px) {
-  .home_link {
-    margin-bottom: 3rem;
-  }
   .link_list {
     display: flex;
     justify-content: space-around;
-    width: 100%;
     gap: 1rem;
   }
 
-  .link {
+  .link, .data_content {
     display: flex;
     justify-content: center;
+    margin: 0.4rem 0;
+    padding: 0.5rem 1rem;
   }
 
   .link p {
     display: none;
+  }
+
+  .data_content p {
+    font-size: 6vw;
   }
 
   .btn {
