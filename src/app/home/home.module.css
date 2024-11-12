@@ -66,15 +66,11 @@
   }
 
   .title_content {
-    font-size: 1.8rem;
-  }
-
-  .typing_content {
-    font-size: 1.5rem;
+    font-size: 8vw;
   }
 
   .description_content {
-    font-size: 1.2rem;
+    font-size: 6vw;
     align-items: center;
   }
 }
