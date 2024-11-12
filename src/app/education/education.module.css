@@ -1,6 +1,6 @@
 .education {
   position: relative;
-  margin-bottom: 4rem;
+  margin: 4rem 0;
   color: var(--primary-bg-color);
 }
 
@@ -22,17 +22,18 @@
 
 .education_info:hover {
   background: var(--primary-text-color);
-  color: var(--primary-bg-color);
   border: 5px solid var(--secondary-text-color);
   transform: scale(1.03);
 }
 
 .education_info h4 {
+  color: var(--primary-text-color);
   font-size: 4rem;
   font-weight: 700;
 }
 
 .education_info h5 {
+  color: var(--primary-bg-color);
   font-size: 3rem;
   font-weight: 600;
 }

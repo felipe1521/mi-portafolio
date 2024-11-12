@@ -25,6 +25,11 @@
 
 @media (max-width: 768px) {
   .section_card {
-    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 85%;
   }
 }

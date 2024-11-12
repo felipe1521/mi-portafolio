@@ -1,4 +1,5 @@
 .home {
+  height: calc(100vh - var(--height-navbar));
   display: grid;
   grid-template-columns: 60% 1fr;
   grid-template-areas: 
@@ -26,6 +27,8 @@
 
 .links_content {
   position: relative;
+  width: 100%;
+  margin: auto 0;
   grid-area: link;
 }
 
@@ -63,15 +66,11 @@
   }
 
   .title_content {
-    font-size: 1.8rem;
-  }
-
-  .typing_content {
-    font-size: 1.5rem;
+    font-size: 8vw;
   }
 
   .description_content {
-    font-size: 1.2rem;
+    font-size: 6vw;
     align-items: center;
   }
 }

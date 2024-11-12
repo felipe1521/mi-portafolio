@@ -4,7 +4,7 @@ import styles from './skills.module.css';
 
 export default function Skills() {
   return (
-    <section id="section4">
+    <section className={styles.section_skills} id="section4">
     <h2 className="heading">Habilidades Técnicas</h2>
     <div className={styles.section_card}>
         <div className={styles.card}>
