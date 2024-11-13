@@ -64,6 +64,10 @@
 }
 
 @media (max-width: 991px) {
+  .home_link {
+    padding: 0;
+  }
+  
   .link_list {
     display: flex;
     justify-content: space-around;
