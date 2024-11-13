@@ -20,18 +20,18 @@ html {
 body {
   background-color: var(--primary-bg-color);
   color: var(--secondary-text-color);
-  width: 100%;
 }
 
 main {
   position: relative;
   top: var(--height-navbar);
   height: calc(100% - var(--height-navbar));
+  width: 100%;
 }
 
 section {
   position: relative;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 section[id] {
@@ -61,10 +61,4 @@ a {
 
 ::-webkit-scrollbar-track {
   background-color: var(--primary-bg-color);
-}
-
-@media (max-width: 768px) {
-  section {
-    padding: 0;
-  }
 }

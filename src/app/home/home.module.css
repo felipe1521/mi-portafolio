@@ -71,6 +71,10 @@
 
   .description_content {
     font-size: 6vw;
-    align-items: center;
+    width: 90%;
+  }
+
+  .links_content {
+    width: 90%;
   }
 }
