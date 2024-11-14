@@ -42,7 +42,7 @@ function LinkData({ data, color, type }) {
     setTimeout(() => setOpacity(0), 2000);
   };
   return (
-    <div className={styles.data_content} style={{backgroundColor: color, boxShadow: `0 0 1rem ${color}`}}>
+    <div className={styles.data_content} style={{backgroundColor: color, boxShadow: `0 0 10px ${color}`}}>
         <i className={`bx bxl-${type}`}></i>
         <p className={styles.data_text}>{data}</p>
         <p className={styles.clipboard_text} style={{opacity: opacity}}>Copiado!</p>

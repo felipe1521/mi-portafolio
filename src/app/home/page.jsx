@@ -21,9 +21,7 @@ export default function Home() {
           metodologías ágiles como SCRUM.
         </p>  
       </div>
-      <div className={styles.links_content}>
-        <Links />
-      </div>
+      <Links />
     </section>
   );
 }

@@ -1,7 +1,8 @@
 .home_link {
-  position: relative;
+  grid-area: link;
   font-size: 1.5rem;
   padding: 0.5rem;
+  margin: auto 0;
 }
   
 .link, .data_content {
@@ -45,13 +46,13 @@
 .btn {
   width: 100%;
   margin-top: 0.6rem;
-  padding: 0.8rem;
+  padding: 0.5rem;
   background-color: var(--secondary-text-color);
   color: var(--primary-text-color);
-  box-shadow: 0 0 20px var(--secondary-text-color);
+  box-shadow: 0 0 10px var(--secondary-text-color);
   border-radius: 4rem;
   border: 2px solid transparent;
-  font-size: 1em;
+  font-size: 2rem;
   font-weight: 600;
   text-align: center;
   cursor: pointer;
@@ -60,7 +61,7 @@
 
 .btn:hover {
   transform: scale(1.04);
-  box-shadow: 0 0 30px var(--secondary-text-color);
+  box-shadow: 0 0 15px var(--secondary-text-color);
 }
 
 @media (max-width: 991px) {
@@ -78,7 +79,7 @@
     display: flex;
     justify-content: center;
     margin: 0.4rem 0;
-    padding: 0.3rem 0.4rem;
+    padding: 0.2rem 0.4rem;
   }
 
   .link_data {
@@ -86,7 +87,7 @@
   }
 
   .data_text {
-    font-size: 6vw;
+    font-size: 1rem;
   }
 
   .btn {

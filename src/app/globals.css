@@ -20,13 +20,13 @@ html {
 body {
   background-color: var(--primary-bg-color);
   color: var(--secondary-text-color);
+  width: 100%;
 }
 
 main {
   position: relative;
   top: var(--height-navbar);
   height: calc(100% - var(--height-navbar));
-  width: 100%;
 }
 
 section {
