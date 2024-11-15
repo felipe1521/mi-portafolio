@@ -1,4 +1,5 @@
 .home {
+  height: calc(100vh - var(--height-navbar));
   display: grid;
   grid-template-columns: 60% 1fr;
   grid-template-areas: 
@@ -58,10 +59,10 @@
   }
 
   .title_content {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
 
   .description_content {
-    font-size: 5vw;
+    font-size: 6vw;
   }
 }

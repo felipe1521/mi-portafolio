@@ -19,6 +19,10 @@
   transition: 0.3s ease-in-out;
 }
 
+.link {
+  border: 1px solid var(--primary-text-color);
+}
+
 .link_data, .data_text {
   font-size: 2vw;
   margin: 0 auto;
@@ -91,7 +95,7 @@
   }
 
   .btn {
-    padding: 0.7rem;
-    font-size: 1em;
+    padding: 0.4rem;
+    font-size: 1rem;
   }
 }
