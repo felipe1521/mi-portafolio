@@ -7,31 +7,7 @@ export default function Skills() {
     <section className={styles.section_skills} id="section4">
     <h2 className="heading">Habilidades Técnicas</h2>
     <div className={styles.section_card}>
-        <div className={styles.card}>
-            <Image src="/assets/skills/angular.png" alt="Angular" width="80" height="80" />
-            <p className={styles.card_title}>Angular</p>
-        </div>
-        <div className={styles.card}>
-            <Image src="/assets/skills/react.png" alt="React" width="80" height="80" />
-            <p className={styles.card_title}>React</p>
-        </div>
-        <div className={styles.card}>
-            <Image src="/assets/skills/nextjs.png" alt="Next.JS" width="80" height="80" />
-            <p className={styles.card_title}>Next.JS</p>
-        </div>
-        <div className={styles.card}>
-            <Image src="/assets/skills/springboot.png" alt="Springboot" width="80" height="80" />
-            <p className={styles.card_title}>Springboot</p>
-        </div>
-        <div className={styles.card}>
-            <Image src="/assets/skills/java.png" alt="Java" width="80" height="80" />
-            <p className={styles.card_title}>Java</p>
-        </div>
-        <div className={styles.card}>
-            <Image src="/assets/skills/node-js.png" alt="NodeJS" width="80" height="80" />
-            <p className={styles.card_title}>Node JS</p>
-        </div>
-        <div className={styles.card}>
+    <div className={styles.card}>
             <Image src="/assets/skills/javascript.png" alt="Javascript" width="80" height="80" />
             <p className={styles.card_title}>Javascript</p>
         </div>
@@ -46,6 +22,30 @@ export default function Skills() {
         <div className={styles.card}>
             <Image src="/assets/skills/css.png" alt="CSS" width="80" height="80" />
             <p className={styles.card_title}>CSS</p>
+        </div>
+        <div className={styles.card}>
+            <Image src="/assets/skills/react.png" alt="React" width="80" height="80" />
+            <p className={styles.card_title}>React</p>
+        </div>
+        <div className={styles.card}>
+            <Image src="/assets/skills/nextjs.png" alt="Next.JS" width="80" height="80" />
+            <p className={styles.card_title}>Next.JS</p>
+        </div>
+        <div className={styles.card}>
+            <Image src="/assets/skills/angular.png" alt="Angular" width="80" height="80" />
+            <p className={styles.card_title}>Angular</p>
+        </div>
+        <div className={styles.card}>
+            <Image src="/assets/skills/springboot.png" alt="Springboot" width="80" height="80" />
+            <p className={styles.card_title}>Springboot</p>
+        </div>
+        <div className={styles.card}>
+            <Image src="/assets/skills/java.png" alt="Java" width="80" height="80" />
+            <p className={styles.card_title}>Java</p>
+        </div>
+        <div className={styles.card}>
+            <Image src="/assets/skills/node-js.png" alt="NodeJS" width="80" height="80" />
+            <p className={styles.card_title}>Node JS</p>
         </div>
     </div>
 </section>

@@ -21,21 +21,28 @@
 }
 
 .education_info:hover {
-  background: var(--primary-text-color);
-  border: 5px solid var(--secondary-text-color);
+  background: var(--secondary-text-color);
+  border: 5px solid var(--primary-text-color);
   transform: scale(1.03);
 }
 
-.education_info h4 {
+.title {
   color: var(--primary-text-color);
   font-size: 4rem;
   font-weight: 700;
 }
 
-.education_info h5 {
+.primary_title {
   color: var(--primary-bg-color);
   font-size: 3rem;
   font-weight: 600;
+  border-bottom: 3px solid var(--primary-bg-color);
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: var(--primary-text-color);
+  font-size: 2.6rem;
 }
 
 @media (max-width: 768px) {
@@ -49,10 +56,14 @@
   .education_info {
     padding: 1rem;
   }
-  .education_info h4 {
-    font-size: 2rem;
+  .title {
+    font-size: 2.4rem;
   }
-  .education_info h5 {
+  .primary_title {
+    font-size: 1.6rem;
+  }
+
+  .description {
     font-size: 1.6rem;
   }
 }

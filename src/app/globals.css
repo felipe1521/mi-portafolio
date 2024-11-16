@@ -39,6 +39,7 @@ section[id] {
 }
 
 a {
+  color: var(--primary-text-color);
   text-decoration: none;
   cursor: pointer;
 }

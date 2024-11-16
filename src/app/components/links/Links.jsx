@@ -12,8 +12,11 @@ function Links() {
   };
   return (
     <div className={styles.home_link}>
-      <LinkData data={'felipealarcon44@gmail.com'} color={"#C82401"} type={"gmail"} handleToggle={handleToggle} clipboard={clipboard} />
-      <LinkData data={'+56950655634'} color={"#25D366"} type={"whatsapp"} handleToggle={handleToggle} clipboard={clipboard} />
+      <h3 className={styles.title}>Contactos</h3>
+      <div>
+        <LinkData data={'felipealarcon44@gmail.com'} type={"gmail"} handleToggle={handleToggle} clipboard={clipboard} />
+        <LinkData data={'+56950655634'} type={"whatsapp"} handleToggle={handleToggle} clipboard={clipboard} />
+      </div> 
       <div className={styles.link_list}>
         <a href="https://linkedin.com/in/felipe-ignacio-alarcon-contreras-670a25286/" target="_blank"
         className={styles.link} style={{ backgroundColor: "#0A66C2", boxShadow: "0 0 1rem #0A66C2"}}>
@@ -26,7 +29,9 @@ function Links() {
           <p className={styles.link_data}>Github</p>
         </a>
       </div>
-      <button href="/CV-FelipeAlarconContreras.pdf" target="_blank" className={styles.btn}>Revisa mi CV</button>
+      <div className={styles.btn}>
+        <a href="/CV-FelipeAlarconContreras.pdf" target="_blank">Revisa mi CV</a>
+      </div>
     </div>
   )
 }

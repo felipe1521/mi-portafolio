@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './links.module.css';
 import { ClipboardDocumentCheckIcon, CheckIcon } from '@heroicons/react/24/outline';
 
-function LinkData({ data, color, type, handleToggle, clipboard }) {
+function LinkData({ data, type, handleToggle, clipboard }) {
     const [opacity, setOpacity] = React.useState(0);
     const [icon, setIcon] = React.useState(0);
   
@@ -21,8 +21,8 @@ function LinkData({ data, color, type, handleToggle, clipboard }) {
       setTimeout(() => setOpacity(0), 2000);
     };
     return (
-      <div className={styles.data_content} style={{backgroundColor: color, boxShadow: `0 0 10px ${color}`}}>
-          <i className={`bx bxl-${type}`}></i>
+      <div className={styles.data_content}>
+          <i className={`bx bxl-${type} ${styles.icon}`}></i>
           <p className={styles.data_text}>{data}</p>
           <p className={styles.clipboard_text} style={{opacity: opacity}}>Copiado!</p>
           <ClipboardDocumentCheckIcon onClick={() => handleClick(data)}
