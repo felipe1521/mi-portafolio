@@ -18,10 +18,10 @@ export default function Navbar() {
       <XMarkIcon onClick={handleToggle} className={(isOpen) ? styles.icon : styles.display_none} />
       </label>
       <nav className={`${styles.navbar} ${(isOpen) ? styles.navbar_open : styles.navbar_close}`}>
-        <a href="#section1" className={styles.link}>Inicio</a>
-        <a href="#section3" className={styles.link}>Educación</a>
-        <a href="#section2" className={styles.link}>Experiencia</a>
-        <a href="#section4" className={styles.link}>Habilidades</a>
+        <a href="#section1" onClick={handleToggle} className={styles.link}>Inicio</a>
+        <a href="#section3" onClick={handleToggle} className={styles.link}>Educación</a>
+        <a href="#section2" onClick={handleToggle} className={styles.link}>Experiencia</a>
+        <a href="#section4" onClick={handleToggle} className={styles.link}>Habilidades</a>
       </nav>
     </header>
   );
