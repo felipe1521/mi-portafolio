@@ -12,7 +12,6 @@ function Links() {
   };
   return (
     <div className={styles.home_link}>
-      <h3 className={styles.title}>Contactos</h3>
       <div>
         <LinkData data={'felipealarcon44@gmail.com'} type={"gmail"} handleToggle={handleToggle} clipboard={clipboard} />
         <LinkData data={'+56950655634'} type={"whatsapp"} handleToggle={handleToggle} clipboard={clipboard} />

@@ -23,7 +23,6 @@
 .education_info:hover {
   background: var(--secondary-text-color);
   border: 5px solid var(--primary-text-color);
-  transform: scale(1.03);
 }
 
 .title {

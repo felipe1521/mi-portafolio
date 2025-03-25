@@ -1,9 +1,9 @@
-import { Iceland } from "next/font/google";
+import { Titillium_Web } from "next/font/google";
 import Navbar from "./components/navbar/navbar";
 import 'boxicons/css/boxicons.min.css';
 import "./globals.css";
 
-const font = Iceland({
+const font = Titillium_Web({
   weight: '400',
   subsets: ['latin'],
   display: 'swap'

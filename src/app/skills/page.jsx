@@ -7,7 +7,7 @@ export default function Skills() {
     <section className={styles.section_skills} id="section4">
     <h2 className="heading">Habilidades Técnicas</h2>
     <div className={styles.section_card}>
-    <div className={styles.card}>
+        <div className={styles.card}>
             <Image src="/assets/skills/javascript.png" alt="Javascript" width="80" height="80" />
             <p className={styles.card_title}>Javascript</p>
         </div>

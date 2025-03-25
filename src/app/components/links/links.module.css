@@ -4,11 +4,6 @@
   padding: 0.5rem;
   margin: auto 0;
 }
-
-.title {
-  font-size: 3rem;
-  color: var(--primary-text-color);
-}
   
 .link, .data_content {
   position: relative;
@@ -43,7 +38,7 @@
 }
 
 .link_data, .data_text {
-  font-size: 2vw;
+  font-size: 1.5rem;
   margin: 0 auto;
 }
 

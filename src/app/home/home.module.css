@@ -2,6 +2,7 @@
   height: calc(100vh - var(--height-navbar));
   display: grid;
   grid-template-columns: 60% 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-areas: 
     'title link'
     'description link';
@@ -12,7 +13,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--primary-text-color);
 }
 
@@ -20,7 +21,7 @@
   grid-area: description;
   display: flex;
   align-items: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   width: 100%;
   color: var(--secondary-text-color);
 }
@@ -59,10 +60,10 @@
   }
 
   .title_content {
-    font-size: 6.5vw;
+    font-size: 6vw;
   }
 
   .description_content {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 }
