@@ -27,6 +27,7 @@
 @media (max-width: 768px) {
   .section_card {
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
   }
 
   .card_title {
