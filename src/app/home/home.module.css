@@ -52,6 +52,7 @@
 @media (max-width: 991px) {
   .home {
     grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr;
     grid-template-areas: 
       'title'
       'description'
@@ -59,11 +60,7 @@
     gap: 1.5rem;
   }
 
-  .title_content {
-    font-size: 6vw;
-  }
-
-  .description_content {
-    font-size: 5vw;
+  .title_content, .description_content {
+    font-size: 1.2rem;
   }
 }
