@@ -1,7 +1,7 @@
 :root {
   --primary-text-color: #fff;
   --secondary-text-color: #332ae3;
-  --primary-bg-color: #0a0a0a;
+  --primary-bg-color: #0f0f0f;
   --secondary-bg-color: #008c99;
   --height-navbar: 60px;
 }
@@ -18,7 +18,6 @@ html {
 }
 
 body {
-  background-color: var(--primary-bg-color);
   color: var(--secondary-text-color);
   width: 100%;
 }
@@ -26,12 +25,13 @@ body {
 main {
   position: relative;
   top: var(--height-navbar);
-  height: calc(100% - var(--height-navbar));
+  padding-bottom: 80px;
+  background-color: var(--primary-bg-color);
 }
 
 section {
   position: relative;
-  padding: 1rem;
+  padding: 1rem 80px;
 }
 
 section[id] {
@@ -45,11 +45,10 @@ a {
 }
 
 .heading {
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
   color: var(--primary-text-color);
-  text-shadow: .4rem .4rem .7rem rgba(252, 252, 252, 0.3),
-                -.4rem -.4rem .7rem rgba(252, 252, 252, 0.3);
+  text-shadow: .4rem .4rem .7rem rgba(252, 252, 252, 0.3), -.4rem -.4rem .7rem rgba(252, 252, 252, 0.3);
 }
 
 ::-webkit-scrollbar {
@@ -62,4 +61,10 @@ a {
 
 ::-webkit-scrollbar-track {
   background-color: var(--primary-bg-color);
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 1rem;
+  }
 }

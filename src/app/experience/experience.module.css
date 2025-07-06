@@ -1,16 +1,18 @@
 .timeline {
+  width: 100%;
+  margin-inline: auto;
   margin-bottom: 6rem;
 }
 .timeline_title {
   width: 15%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
   color: var(--primary-text-color);
   background-color: var(--secondary-text-color);
-  padding: 1.6rem 2.6rem;
-  border-radius: 40%;
-  box-shadow: 0 0 30px var(--secondary-text-color);
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px var(--secondary-text-color);
 }
 
 .timeline_items {
@@ -43,7 +45,7 @@
   height: 21px;
   width: 21px;
   background-color: var(--secondary-text-color);
-  box-shadow: 0 0 25px var(--secondary-text-color), 0 0 50px var(--secondary-text-color);
+  box-shadow: 0 0 20px var(--secondary-text-color), 0 0 50px var(--secondary-text-color);
   position: absolute;
   left: calc(50% - 9px);
   border-radius: 50%;
@@ -60,7 +62,7 @@
 }
 
 .timeline_date {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   color: var(--primary-text-color);
   margin: 1.2rem 0 1.6rem;
@@ -71,18 +73,18 @@
   border: 3px solid var(--secondary-text-color);
   padding: 1.5rem 2rem;
   border-radius: 4rem;
-  box-shadow: 0 0 10px var(--secondary-text-color);
+  box-shadow: 0 0 4px var(--secondary-text-color);
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
 
 .timeline_content:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px var(--secondary-text-color);
+  transform: scale(1.02);
+  box-shadow: 0 0 8px var(--secondary-text-color);
 }
 
 .timeline_content h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--primary-text-color);
   margin: 0 0 1.3rem;
   font-weight: 600;
@@ -90,12 +92,15 @@
 
 .timeline_content p {
   color: var(--primary-text-color);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 300;
 }
 
 
 @media (max-width: 768px) {
+  .timeline {
+    width: 80%;
+  }
   .timeline_items {
     width: 100%;
   }
@@ -108,10 +113,10 @@
     font-size: 1.5rem;
   }
   .timeline_content h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .timeline_content p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .timeline_item:nth-child(odd) {

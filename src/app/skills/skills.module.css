@@ -1,4 +1,5 @@
 .section_card {
+  width: 100%;
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
@@ -18,7 +19,7 @@
 }
 
 .card_title {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-top: 1rem;
   color: var(--primary-text-color);
@@ -26,8 +27,10 @@
 
 @media (max-width: 768px) {
   .section_card {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    width: 80%;
+    margin-inline: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .card_title {

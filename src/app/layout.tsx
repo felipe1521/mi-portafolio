@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import { Titillium_Web } from "next/font/google";
 import Navbar from "./components/navbar/navbar";
 import 'boxicons/css/boxicons.min.css';
@@ -14,7 +15,7 @@ export const metadata = {
   description: "Proyecto: mi-portafolio",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={font.className}>

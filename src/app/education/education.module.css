@@ -20,20 +20,15 @@
   padding: 2rem;
 }
 
-.education_info:hover {
-  background: var(--secondary-text-color);
-  border: 5px solid var(--primary-text-color);
-}
-
 .title {
   color: var(--primary-text-color);
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .primary_title {
   color: var(--primary-bg-color);
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   border-bottom: 3px solid var(--primary-bg-color);
   margin-bottom: 1rem;

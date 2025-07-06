@@ -1,12 +1,18 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './links.module.css';
 import { ClipboardDocumentCheckIcon, CheckIcon } from '@heroicons/react/24/outline';
 
-function LinkData({ data, type, handleToggle, clipboard }) {
-    const [opacity, setOpacity] = React.useState(0);
-    const [icon, setIcon] = React.useState(0);
+type LinkDataProps = {
+    data: string;
+    type: string;
+    handleToggle: () => Promise<void>;
+    clipboard: string | null;
+};
+function LinkData({ data, type, handleToggle, clipboard }: LinkDataProps) {
+    const [opacity, setOpacity] = useState(0);
+    const [icon, setIcon] = useState(0);
   
-    React.useEffect(() => {
+    useEffect(() => {
         if(clipboard == data) {
             setOpacity(0);
             setIcon(0);
@@ -25,7 +31,7 @@ function LinkData({ data, type, handleToggle, clipboard }) {
           <i className={`bx bxl-${type} ${styles.icon}`}></i>
           <p className={styles.data_text}>{data}</p>
           <p className={styles.clipboard_text} style={{opacity: opacity}}>Copiado!</p>
-          <ClipboardDocumentCheckIcon onClick={() => handleClick(data)}
+          <ClipboardDocumentCheckIcon onClick={() => handleClick()}
             className={styles.clipboard_icon} style={{ display: icon == 1 ? 'none' : 'block' }} />
           <CheckIcon className={styles.clipboard_icon} style={{ display: icon == 0 ? 'none' : 'block' }} />
       </div>

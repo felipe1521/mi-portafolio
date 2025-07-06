@@ -3,6 +3,7 @@
   font-size: 1.5rem;
   padding: 0.5rem;
   margin: auto 0;
+  width: 100%;
 }
   
 .link, .data_content {
@@ -43,7 +44,16 @@
 }
 
 .link:hover {
-  transform: scale(1) translateY(-5px);
+  transform: scale(1) translateY(-2px);
+}
+
+.link:nth-child(1) {
+  background-color: #0A66C2;
+  box-shadow: 0 0 6px #0A66C2;
+}
+.link:nth-child(2) {
+  background-color: #0D1117;
+  box-shadow: 0 0 6px #0D1117;
 }
 
 .clipboard_text {
@@ -76,13 +86,14 @@
 }
 
 .btn:hover {
-  transform: scale(1.02);
   box-shadow: 0 0 15px var(--secondary-text-color);
 }
 
 @media (max-width: 991px) {
   .home_link {
     padding: 0;
+    margin: 0 auto;
+    width: 80%;
   }
 
   .title {
@@ -107,7 +118,7 @@
   }
 
   .data_text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   .btn {

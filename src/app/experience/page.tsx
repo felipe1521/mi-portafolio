@@ -1,4 +1,3 @@
-import React from "react";
 import styles from './experience.module.css';
 
 export default function Experience() {
@@ -11,7 +10,7 @@ export default function Experience() {
       <div className={styles.timeline_items}>
         <div className={styles.timeline_item}>
           <div className={styles.timeline_dot}></div>
-          <div className={styles.timeline_date}>2020 - <br/>2021</div>
+          <div className={styles.timeline_date}>2020 - 2021</div>
           <div className={styles.timeline_content}>
             <h3>Desarrollador Full-stack</h3>
             <p>
@@ -44,7 +43,7 @@ export default function Experience() {
         </div>
         <div className={styles.timeline_item}>
           <div className={styles.timeline_dot}></div>
-          <div className={styles.timeline_date}>2023 - <br/>Actualidad</div>
+          <div className={styles.timeline_date}>2023 - 2025</div>
           <div className={styles.timeline_content}>
             <h3>Desarrollador Full-stack</h3>
             <p>
@@ -52,6 +51,20 @@ export default function Experience() {
             el cual sirve para que un cliente pueda registrarse y activar el servicio Movistar TV.
             </p>
           </div>
+        </div>
+      </div>
+      <div className={styles.timeline_title}>
+        <h4>ENTELGY</h4>
+      </div>
+      <div className={styles.timeline_item}>
+        <div className={styles.timeline_dot}></div>
+        <div className={styles.timeline_date}>2025 - Actualidad</div>
+        <div className={styles.timeline_content}>
+          <h3>Desarrollador Full-stack</h3>
+          <p>
+          Estoy trabajando en la migracion y refacotrizacion de un aplicativo web llamado SIAPER, 
+          perteneciente a la Contraloria General de la Republica de Chile.
+          </p>
         </div>
       </div>
     </section>

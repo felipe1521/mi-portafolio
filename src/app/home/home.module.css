@@ -2,7 +2,7 @@
   height: calc(100vh - var(--height-navbar));
   display: grid;
   grid-template-columns: 60% 1fr;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas: 
     'title link'
     'description link';
@@ -12,18 +12,19 @@
   grid-area: title;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   font-size: 2.5rem;
-  color: var(--primary-text-color);
+  color: var(--secondary-bg-color);
+  padding-block: 1rem;
 }
 
 .description_content {
   grid-area: description;
   display: flex;
-  align-items: center;
-  font-size: 2rem;
+  align-items: flex-start;
+  font-size: 1.5rem;
+  color: var(--primary-text-color);
   width: 100%;
-  color: var(--secondary-text-color);
 }
 
 .typing_content {
@@ -60,7 +61,10 @@
     gap: 1.5rem;
   }
 
-  .title_content, .description_content {
+  .title_content {
+    font-size: 2rem;
+  }
+  .description_content {
     font-size: 1.2rem;
   }
 }
