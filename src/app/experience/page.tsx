@@ -14,7 +14,7 @@ export default function Experience() {
           <div className={styles.timeline_content}>
             <h3>Desarrollador Full-stack</h3>
             <p>
-              He trabajado en la creación de un aplicativo web llamado New LDI, 
+              Estuve trabajando en la creación de un aplicativo web llamado New LDI, 
               el cual sirve para toda la gestión de los clientes de larga distancia y del Carrier 188 y 181.
             </p>
           </div>
@@ -25,7 +25,7 @@ export default function Experience() {
           <div className={styles.timeline_content}>
             <h3>Desarrollador Mobile</h3>
             <p>
-              He trabajado en el mantenimiento de una aplicación móvil llamada App Delivery, 
+              Estuve trabajando en el mantenimiento de una aplicación móvil llamada App Delivery, 
               la cual sirve para que los despachadores de equipos móviles puedan gestionar las entregas.
             </p>
           </div>
@@ -36,18 +36,18 @@ export default function Experience() {
           <div className={styles.timeline_content}>
             <h3>Desarrollador Full-stack</h3>
             <p>
-              He trabajado en el desarrollo un aplicativo web llamado Resolutor Web, 
+              Estuve trabajando en el desarrollo un aplicativo web llamado Resolutor Web, 
               que sirve para poder gestionar los reclamos de la atención al cliente de Movistar TV.
             </p>
           </div>
         </div>
         <div className={styles.timeline_item}>
           <div className={styles.timeline_dot}></div>
-          <div className={styles.timeline_date}>2023 - 2025</div>
+          <div className={styles.timeline_date}>2023 - 2025 (Junio)</div>
           <div className={styles.timeline_content}>
             <h3>Desarrollador Full-stack</h3>
             <p>
-            Estoy trabajando en el mantenimiento de un aplicativo llamado Registro MTV, 
+            Estuve trabajando en el mantenimiento de un aplicativo llamado Registro MTV, 
             el cual sirve para que un cliente pueda registrarse y activar el servicio Movistar TV.
             </p>
           </div>
@@ -58,11 +58,11 @@ export default function Experience() {
       </div>
       <div className={styles.timeline_item}>
         <div className={styles.timeline_dot}></div>
-        <div className={styles.timeline_date}>2025 - Actualidad</div>
+        <div className={styles.timeline_date}>2025 (Julio - Agosto)</div>
         <div className={styles.timeline_content}>
           <h3>Desarrollador Full-stack</h3>
           <p>
-          Estoy trabajando en la migracion y refacotrizacion de un aplicativo web llamado SIAPER, 
+          Estuve trabajando en la migracion y refactorizacion de un aplicativo web llamado SIAPER, 
           perteneciente a la Contraloria General de la Republica de Chile.
           </p>
         </div>
